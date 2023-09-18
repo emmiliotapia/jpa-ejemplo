@@ -22,6 +22,10 @@ public class Producto {
 	private BigDecimal precio;
 	private LocalDate fechaDeRegistro = LocalDate.now();
 	
+	public Producto() {
+
+	}
+	
 	@ManyToOne
 	private Categoria categoria;
 	
